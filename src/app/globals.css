@@ -12,6 +12,10 @@ body {
   object-fit:cover ;
 }
 
+.p-logo img{
+  margin: auto;
+}
+
 .full-bleed-white {
   background: #EFF4F8;
   box-shadow: 0 0 0 100vmax #EFF4F8;

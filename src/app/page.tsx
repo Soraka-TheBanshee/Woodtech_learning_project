@@ -2,6 +2,7 @@
 import AmberButton from "@/components/AmberButton";
 import BestWorks from "@/components/BestWorks/BestWorks";
 import Bid from "@/components/Bid/Bid";
+import Partners from "@/components/Partners/Partners";
 import Swiper from "@/components/Slider/Swiper";
 
 export default function Home() {
@@ -26,6 +27,8 @@ export default function Home() {
       <Bid />
 
       <BestWorks />
+
+      <Partners />
     </main>
   );
 }
