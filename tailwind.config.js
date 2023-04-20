@@ -22,7 +22,9 @@ module.exports = {
       },
       colors: {
         'main-dark': '#202328',
-        'white-transparent-40': '#FFFFFF66'
+        'deep-dark': '#171A1A',
+        'white-transparent-40': '#FFFFFF66',
+        'main-amber': '#F88500'
       }
     },
   },

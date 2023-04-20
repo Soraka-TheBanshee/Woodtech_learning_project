@@ -18,8 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={raleway.className}>
-      <body className='bg-main-dark text-white' >
-        <div className='.container max-w-[1280px] mx-auto' >
+      <body className=' bg-main-dark text-white ' >
+        <div className='
+        .container max-w-[1278px] mx-auto relative
+        xl:max-w-[1018px]
+        lg:max-w-[758px]
+        md:max-w-[634px]
+        sm:max-w-[468px]
+        ' >
           <Header />
           {children}
         </div>

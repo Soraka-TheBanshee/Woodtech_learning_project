@@ -7,7 +7,7 @@ import Socials from "./Soicals/Socials";
 const Header: FC = () => {
   return (
     <>
-      <header className="px-[45px]">
+      <header className="px-[44px] relative z-20 xl:pt-3">
         <div className="
         min-h-[115px] flex justify-between items-center  flex-wrap 
         lg:grid lg:grid-cols-3
