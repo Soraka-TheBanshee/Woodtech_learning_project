@@ -12,5 +12,15 @@ body {
   object-fit:cover ;
 }
 
+.full-bleed-white {
+  background: #EFF4F8;
+  box-shadow: 0 0 0 100vmax #EFF4F8;
+  clip-path: inset(0 -100vmax);
+}
 
+.full-bleed-white-white {
+  background: #fff;
+  box-shadow: 0 0 0 100vmax #fff;
+  clip-path: inset(0 -100vmax);
+}
 

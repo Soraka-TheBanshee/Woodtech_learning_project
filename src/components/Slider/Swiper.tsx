@@ -23,7 +23,6 @@ const roboto = Roboto({
   weight: ["300"],
   subsets: ["latin"],
 });
-// type swipper = React.FunctionComponent<React.RefAttributes<SwiperRef> & SwiperProps>
 
 export interface ISlideIndex {
   current: number;

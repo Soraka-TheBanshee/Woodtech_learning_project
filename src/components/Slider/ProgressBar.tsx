@@ -31,7 +31,6 @@ const ProgressBar: FC<ProgressBarProps> = ({slideIndex}) => {
       progress = '100'
     } else {
       const result = slideIndex.current * progressInstanceProcents
-      const progressString = `translate-x-[${result}%]`
       progress = result.toString()
     }
     
