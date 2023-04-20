@@ -19,7 +19,7 @@ const roboto = Roboto({
 
 export default function BestWorks() {
   return (
-    <section>
+    <section >
       <div className="relative">
         <div className=" mt-[100px] flex sm:flex-col-reverse justify-center items-center gap-[59.5px] md:gap-[45px] sm:gap-[30px]">
           <p className="max-w-[417px] lg:max-w-[380px] md:max-w-[280px] text-[14px] leading-[24px] text-right sm:text-center ">
@@ -65,7 +65,7 @@ export default function BestWorks() {
         <AmberButton name="ПОКАЗАТЬ ЕЩЁ" padding={[30, 12]} />
       </div>
 
-      <div className="pt-[75px] full-bleed-white-white text-[#333333]">
+      <div className="pt-[75px] pb-4 full-bleed-white-white text-[#333333]">
         <div className="flex justify-center items-start gap-[120px] lg:gap-[60px] md:flex-col md:items-center">
           <div className="flex-shrink-0 relative">
             <div className="absolute bottom-[85px] xl:bottom-[115px] text-white -right-5 w-[255px] h-[105px] bg-[#202328E5] flex items-center justify-center gap-[10px] px-[28.5px] ">

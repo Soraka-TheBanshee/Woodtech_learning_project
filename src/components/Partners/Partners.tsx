@@ -8,7 +8,7 @@ import partner4 from '@/public/partners/partner4.png'
 
 export default function Partners() {
   return (
-    <section className='pt-[75px]' >
+    <section className='pt-[75px] pb-4' >
       <h2 className='text-center font-extrabold text-[28px] leading-[32.9px]' >Наши партнёры</h2>
       <div className='mt-[40px] flex justify-center gap-5 sm:flex-wrap' >
         <Partner logo={partner1} name='Millano Parquet S.R.L.' description=' Мы заботимся о древесине и тщательно следим за производственным процессом.' />
