@@ -3,6 +3,7 @@ import AmberButton from "@/components/AmberButton";
 import BestWorks from "@/components/BestWorks/BestWorks";
 import Bid from "@/components/Bid/Bid";
 import BlogHome from "@/components/Blog/BlogHome";
+import Footer from "@/components/Footer/Footer";
 import Partners from "@/components/Partners/Partners";
 import Swiper from "@/components/Slider/Swiper";
 
@@ -32,6 +33,8 @@ export default function Home() {
       <Partners />
 
       <BlogHome />
+
+      <Footer />
     </main>
   );
 }

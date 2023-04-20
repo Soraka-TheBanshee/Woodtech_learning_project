@@ -28,3 +28,12 @@ body {
   clip-path: inset(0 -100vmax);
 }
 
+.full-bleed-black {
+  background: #171A1A;
+  box-shadow: 0 0 0 100vmax #171A1A;
+  clip-path: inset(0 -100vmax);
+}
+
+svg {
+ fill: rgba(255, 0, 255, 0.4);
+}
