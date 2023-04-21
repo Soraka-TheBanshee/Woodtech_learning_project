@@ -93,7 +93,7 @@ export default function Swiiper() {
     >
       <SwiperSlide>
         <div className="img lg:h-[700px] md:h-[600px] xs:h-[740px]">
-          <Image src={img} alt="testing" />
+          <Image src={img} alt="testing" priority />
         </div>
       </SwiperSlide>
       <SwiperSlide>
