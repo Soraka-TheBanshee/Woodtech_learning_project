@@ -1,4 +1,3 @@
-"use client";
 import AmberButton from "@/components/AmberButton";
 import BestWorks from "@/components/BestWorks/BestWorks";
 import Bid from "@/components/Bid/Bid";
@@ -6,6 +5,7 @@ import BlogHome from "@/components/Blog/BlogHome";
 import Footer from "@/components/Footer/Footer";
 import Partners from "@/components/Partners/Partners";
 import Swiper from "@/components/Slider/Swiper";
+import ToTopBtn from "@/components/ToTopBtn";
 
 export default function Home() {
   return (
@@ -35,6 +35,8 @@ export default function Home() {
       <BlogHome />
 
       <Footer />
+
+      <ToTopBtn />
     </main>
   );
 }

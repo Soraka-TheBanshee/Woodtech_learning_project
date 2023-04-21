@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .c-container {
+    @apply max-w-[1278px] mx-auto relative xl:max-w-[1018px] lg:max-w-[758px] md:max-w-[634px] sm:max-w-[468px]
+  }
+}
+
 body {
   height: 100dvh;
 }

@@ -52,7 +52,6 @@ export default () => {
   };
 
   const slideChangeHandler = () => {
-    console.log(swiperRef.current?.realIndex);
     setSlideIndex((prev) => {
       if (prev && swiperRef.current) {
         const currentIndex = swiperRef.current?.realIndex;

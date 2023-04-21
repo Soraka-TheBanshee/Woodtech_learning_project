@@ -10,8 +10,6 @@ const ProgressBar: FC<ProgressBarProps> = ({slideIndex}) => {
   
   const progressInstanceProcents = useMemo(() =>{
     let instance
-    console.log('useMemo is working');
-    
     if (slideIndex) {
       instance = 1/(slideIndex.length/100)
     } else {
@@ -40,8 +38,6 @@ const ProgressBar: FC<ProgressBarProps> = ({slideIndex}) => {
   
   const styles = {transform: `translate(${progress}%, 0)`}
 
-  console.log(progress);
-  
 
   return (
     <div>
