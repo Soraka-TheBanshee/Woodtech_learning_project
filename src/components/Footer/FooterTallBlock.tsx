@@ -23,6 +23,7 @@ const FooterTallBlock: FC<FooterTallBlockProps> = ({ header, links }) => {
         {links.map((link) => {
           return (
             <Link
+              key={link.name}
               href={link.url}
               className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
             >

@@ -1,11 +1,9 @@
 "use client";
 /* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-anonymous-default-export */
 import {
   Swiper,
-  SwiperProps,
-  SwiperRef,
   SwiperSlide,
-  useSwiper,
 } from "swiper/react";
 import { Navigation, Pagination, Swiper as SwiperType } from "swiper";
 import img from "@/public/slider-img.png";
@@ -14,7 +12,6 @@ import Image from "next/image";
 import "swiper/swiper.min.css";
 import "swiper/css/bundle";
 import { useEffect, useRef, useState } from "react";
-import { NavigationOptions } from "swiper/types";
 import SwipperNavBtn from "./SwipperNavBtn";
 import ProgressBar from "./ProgressBar";
 
@@ -29,7 +26,7 @@ export interface ISlideIndex {
   length: number;
 }
 
-export default () => {
+export default function Swiiper() {
   const swiperRef = useRef<SwiperType>();
   const [slideIndex, setSlideIndex] = useState<ISlideIndex>();
 

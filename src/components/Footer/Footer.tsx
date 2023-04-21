@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import AboutShort from "./AboutShort";
 import FooterInSocials from "./FooterInSocials";
 import FooterTallBlock, { FLink } from "./FooterTallBlock";

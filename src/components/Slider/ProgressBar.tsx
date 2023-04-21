@@ -17,7 +17,7 @@ const ProgressBar: FC<ProgressBarProps> = ({slideIndex}) => {
     }
     return instance 
     
-  }, [slideIndex?.length])
+  }, [slideIndex])
   
   
 

@@ -5,7 +5,6 @@ import BlogHome from "@/components/Blog/BlogHome";
 import Footer from "@/components/Footer/Footer";
 import Partners from "@/components/Partners/Partners";
 import Swiper from "@/components/Slider/Swiper";
-import ToTopBtn from "@/components/ToTopBtn";
 
 export default function Home() {
   return (

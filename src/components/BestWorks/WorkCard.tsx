@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
 
-import tearpoint from "@/public/icons/tearpoint.svg";
+import tearpoint from "../../../public/icons/Tearpoint.svg";
 
 interface WorkCardProps {
   img: StaticImageData;
