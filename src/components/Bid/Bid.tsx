@@ -38,7 +38,7 @@ export default function Bid() {
               +7 {"("}499{")"} 000-00-00
             </a>
           </div>
-          <div className="flex justify-end" >
+          <div className="flex justify-end mt-[15px]" >
             <AmberButton padding={[30, 12]} name="ОФОРМИТЬ ЗАЯВКУ СЕЙЧАС" clickHandler={undefined} />
           </div>
         </div>
