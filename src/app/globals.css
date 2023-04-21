@@ -4,12 +4,13 @@
 
 @layer base {
   .c-container {
-    @apply max-w-[1278px] mx-auto relative xl:max-w-[1018px] lg:max-w-[758px] md:max-w-[634px] sm:max-w-[468px]
+    @apply max-w-[1278px] mx-auto relative xl:max-w-[1018px] lg:max-w-[758px] md:max-w-[634px] sm:max-w-[468px] 
   }
 }
 
 body {
   height: 100dvh;
+  overflow-x: hidden;
 }
 
 .img img {
@@ -20,24 +21,6 @@ body {
 
 .p-logo img{
   margin: auto;
-}
-
-.full-bleed-white {
-  background: #EFF4F8;
-  box-shadow: 0 0 0 100vmax #EFF4F8;
-  clip-path: inset(0 -100vmax);
-}
-
-.full-bleed-white-white {
-  background: #fff;
-  box-shadow: 0 0 0 100vmax #fff;
-  clip-path: inset(0 -100vmax);
-}
-
-.full-bleed-black {
-  background: #171A1A;
-  box-shadow: 0 0 0 100vmax #171A1A;
-  clip-path: inset(0 -100vmax);
 }
 
 svg {

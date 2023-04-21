@@ -31,39 +31,6 @@ const FooterTallBlock: FC<FooterTallBlockProps> = ({ header, links }) => {
           );
         })}
       </div>
-
-      {/* <div className="flex flex-col ">
-        <Link
-          href="/"
-          className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
-        >
-          Главная
-        </Link>
-        <Link
-          href="/projects"
-          className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
-        >
-          Проекты
-        </Link>
-        <Link
-          href="/serice"
-          className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
-        >
-          Услуги
-        </Link>
-        <Link
-          href="/blog"
-          className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
-        >
-          Блог
-        </Link>
-        <Link
-          href="/about"
-          className="mt-[25px] text-[14px] leading-[24px] text-white-transparent-40 hover:text-main-amber hover:underline"
-        >
-          Компания
-        </Link>
-      </div> */}
     </div>
   );
 };

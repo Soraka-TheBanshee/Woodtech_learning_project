@@ -22,18 +22,18 @@ export default function Footer() {
   ];
 
   return (
-    <section className="full-bleed-black py-[75px]">
-      <div className="flex justify-between flex-wrap 
-      md:flex-col md:gap-y-10 md:items-center">
-        <AboutShort />
-
-        <div className="flex gap-[21px]" >
-          <FooterTallBlock header="Меню" links={menuLinks} />
-          <FooterTallBlock header="Услуги" links={servicesLinks} />
+    <div className="bg-deep-dark">
+      <section className="c-container py-[75px]">
+        <div className="flex justify-between flex-wrap
+        md:flex-col md:gap-y-10 md:items-center">
+          <AboutShort />
+          <div className="flex gap-[21px]" >
+            <FooterTallBlock header="Меню" links={menuLinks} />
+            <FooterTallBlock header="Услуги" links={servicesLinks} />
+          </div>
+          <FooterInSocials />
         </div>
-
-        <FooterInSocials />
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }

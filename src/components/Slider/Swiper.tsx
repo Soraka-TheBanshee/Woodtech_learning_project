@@ -86,12 +86,12 @@ export default () => {
       }}
       onSlideChange={slideChangeHandler}
       className="
-      w-[1260px] absolute top-3 xs:top-0 rounded-md translate-x-[9px]
+      w-[1260px] z-0 absolute top-3 xs:top-0 rounded-md translate-x-[9px]
       xl:w-[1000px]
       lg:w-[740px]
       md:w-[616px]
       sm:w-[450px]
-      xs:w-screen xs:translate-x-0 
+      xs:w-screen xs:translate-x-0
       "
     >
       <SwiperSlide>

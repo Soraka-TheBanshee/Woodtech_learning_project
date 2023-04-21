@@ -11,7 +11,7 @@ export default function ToTopBtn() {
       
       if (window.scrollY > 150) {
         setBtnVisability('pointer-events-auto opacity-80 ');
-      } else if (btnVisability === 'pointer-events-auto opacity-80 ') {
+      } else {
         setBtnVisability('pointer-events-none opacity-0 ');
       }
     };
